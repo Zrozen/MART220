@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+  <script>
+    let pizzaX, pizzaY;
+    let toppings = [];
+
+    function setup() {
+      createCanvas(400, 400);
+      pizzaX = width / 2;
+      pizzaY = height / 2;
+
+      // Create random toppings
+      for (let i = 0; i < 10; i++) {
+        let topping = {
+          x: random(width),
+          y: random(height),
+          size: random(10, 30),
+          color: color(random(255), random(255), random(255))
+        };
+        toppings.push(topping);
+      }
+    }
+
+    function draw() {
+      background(255);
+
+      // Draw pizza crust
+      fill(205, 133, 63);
+      ellipse(pizzaX, pizzaY, 200, 200);
+
+      // Draw random toppings
+      for (let i = 0; i < toppings.length; i++) {
+        fill(toppings[i].color);
+        ellipse(toppings[i].x, toppings[i].y, toppings[i].size, toppings[i].size);
+
+        // Move toppings randomly
+        toppings[i].x += random(-2, 2);
+        toppings[i].y += random(-2, 2);
+
+        // Ensure toppings stay within the canvas
+        toppings[i].x = constrain(toppings[i].x, 0, width);
+        toppings[i].y = constrain(toppings[i].y, 0, height);
+      }
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
