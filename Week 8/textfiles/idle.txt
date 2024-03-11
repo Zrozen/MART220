@@ -1,0 +1,15 @@
+./assets/caimation/Idle/Idle (1).png
+./assets/caimation/Idle/Idle (2).png
+./assets/caimation/Idle/Idle (3).png
+./assets/caimation/Idle/Idle (4).png
+./assets/caimation/Idle/Idle (5).png
+./assets/caimation/Idle/Idle (6).png
+./assets/caimation/Idle/Idle (7).png
+./assets/caimation/Idle/Idle (8).png
+./assets/caimation/Idle/Idle (9).png
+./assets/caimation/Idle/Idle (10).png
+./assets/caimation/Idle/Idle (11).png
+./assets/caimation/Idle/Idle (12).png
+./assets/caimation/Idle/Idle (13).png
+./assets/caimation/Idle/Idle (14).png
+./assets/caimation/Idle/Idle (15).png
