@@ -1,0 +1,15 @@
+../assets/caimation/Run/Run (1).png
+../assets/caimation/Run/Run (2).png
+../assets/caimation/Run/Run (3).png
+../assets/caimation/Run/Run (4).png
+../assets/caimation/Run/Run (5).png
+../assets/caimation/Run/Run (6).png
+../assets/caimation/Run/Run (7).png
+../assets/caimation/Run/Run (8).png
+../assets/caimation/Run/Run (9).png
+../assets/caimation/Run/Run (10).png
+../assets/caimation/Run/Run (11).png
+../assets/caimation/Run/Run (12).png
+../assets/caimation/Run/Run (13).png
+../assets/caimation/Run/Run (14).png
+../assets/caimation/Run/Run (15).png
